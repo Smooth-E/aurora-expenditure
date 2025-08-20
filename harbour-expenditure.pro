@@ -11,9 +11,9 @@
 #   - desktop filename must be changed
 #   - icon definition filename in desktop file must be changed
 #   - translation filenames have to be changed
-TARGET = harbour-expenditure
+TARGET = moe.smoothie.expenditure
 
-CONFIG += sailfishapp
+CONFIG += auroraapp
 
 # Note: version number is configured in yaml
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
@@ -34,11 +34,11 @@ DISTFILES += \
     rpm/harbour-*.spec \
     rpm/harbour-*.yaml \
     translations/*.ts \
-    harbour-*.desktop
+    moe.smoothie.expenditure.desktop
 
-SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
+AURORAAPP_ICONS = 86x86 108x108 128x128 172x172
 
 # to disable building translations every time, comment out the
 # following CONFIG line
-CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/harbour-expenditure-*.ts
+CONFIG += auroraapp_i18n
+TRANSLATIONS += translations/moe.smoothie.expenditure-*.ts

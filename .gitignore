@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # SPDX-FileCopyrightText: 2022 Tobias Planitzer
 # SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+# SPDX-FileCopyrightText: 2025 Smooth-E
 
 *.user*
 *~
@@ -18,3 +19,6 @@ databases/
 
 libs/opal-translations
 libs/opal-docs
+
+# WSL metadata
+*:Zone.Identifier

@@ -2,11 +2,13 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 # SPDX-FileCopyrightText: 2022 Tobias Planitzer
 # SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+# SPDX-FileCopyrightText: 2025 Smooth-E
+
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=harbour-expenditure
-Exec=harbour-expenditure
+Icon=moe.smoothie.expenditure
+Exec=moe.smoothie.expenditure
 Name=Expenditure
 
 # TRANSLATORS
@@ -18,10 +20,6 @@ Name=Expenditure
 # Name[en]=Expenditure
 
 [X-Sailjail]
-OrganizationName=org.tplabs
+OrganizationName=moe.smoothie
 ApplicationName=expenditure
 Permissions=PublicDir;UserDirs;RemovableMedia
-
-[X-HarbourBackup]
-BackupPathList=.local/share/org.tplabs/expenditure
-BackupConfigList=/apps/harbour-expenditure/

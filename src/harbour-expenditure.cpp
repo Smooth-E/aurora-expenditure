@@ -3,11 +3,12 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  * SPDX-FileCopyrightText: 2022 Tobias Planitzer
  * SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
  */
 
 #include <QtQuick>
 #include <QFileInfo>
-#include <sailfishapp.h>
+#include <auroraapp.h>
 #include "requires_defines.h"
 #include "quiet_logging.h"
 
@@ -65,18 +66,18 @@ int main(int argc, char *argv[])
 {
     setupLogging();
 
-    QScopedPointer<QGuiApplication> app(SailfishApp::application(argc, argv));
-    app->setOrganizationName("org.tplabs"); // needed for Sailjail
+    QScopedPointer<QGuiApplication> app(Aurora::Application::application(argc, argv));
+    app->setOrganizationName("moe.smoothie"); // needed for Sailjail
     app->setApplicationName("expenditure");
 
     migrateDatabase();
 
-    QScopedPointer<QQuickView> view(SailfishApp::createView());
+    QScopedPointer<QQuickView> view(Aurora::Application::createView());
     view->rootContext()->setContextProperty("APP_VERSION", QString(APP_VERSION));
     view->rootContext()->setContextProperty("APP_RELEASE", QString(APP_RELEASE));
 
-    view->engine()->addImportPath(SailfishApp::pathTo("qml/modules").toString());
-    view->setSource(SailfishApp::pathToMainQml());
+    view->engine()->addImportPath(Aurora::Application::pathTo("qml/modules").toString());
+    view->setSource(Aurora::Application::pathTo("qml/harbour-expenditure.qml"));
     view->show();
     return app->exec();
 }

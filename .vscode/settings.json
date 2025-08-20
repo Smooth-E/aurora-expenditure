@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.desktop": "shellscript",
+        "*.pro": "shellscript",
+        "*.ts": "xml",
+        "*.spec": "shellscript"
+    },
+    "cSpell.words": [
+        "Mirian",
+        "Planitzer"
+    ]
+}
