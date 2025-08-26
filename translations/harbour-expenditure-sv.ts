@@ -44,27 +44,27 @@
         <translation>Svenska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="105"/>
-        <source>Portuguese (Brazil)</source>
-        <translation>Portugisiska (Brasilien)</translation>
+        <location filename="../qml/pages/AboutPage.qml" line="131"/>
+        <source>Brazilian Portuguese</source>
+        <translation>Brasiliansk portugisiska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="111"/>
+        <location filename="../qml/pages/AboutPage.qml" line="105"/>
         <source>Norwegian Bokmål</source>
         <translation>Norska Bokmål</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="117"/>
+        <location filename="../qml/pages/AboutPage.qml" line="111"/>
         <source>Indonesian</source>
         <translation>Indonesiska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="123"/>
+        <location filename="../qml/pages/AboutPage.qml" line="117"/>
         <source>German</source>
         <translation>Tyska</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="131"/>
+        <location filename="../qml/pages/AboutPage.qml" line="125"/>
         <source>Estonian</source>
         <translation>Estniska</translation>
     </message>
@@ -940,70 +940,40 @@ Starta om appen och kontrollera loggarna.</translation>
 <context>
     <name>dates</name>
     <message>
-        <source>hh&apos;:&apos;mm</source>
-        <comment>time only format, as in “10:00 o&apos;clock”</comment>
-        <translation type="vanished">hh&apos;:&apos;mm</translation>
-    </message>
-    <message>
-        <source>d MMM yyyy, hh&apos;:&apos;mm</source>
-        <comment>date and time format, as in “Dec. 1st 2023, 10:00 o&apos;clock”</comment>
-        <translation type="vanished">d MMM yyyy, hh&apos;:&apos;mm</translation>
-    </message>
-    <message>
-        <source>ddd d MMM yyyy, hh&apos;:&apos;mm</source>
-        <comment>full date and time format, as in “Fri., Dec. 1st 2023, 10:00 o&apos;clock”</comment>
-        <translation type="vanished">ddd d MMM yyyy, hh&apos;:&apos;mm</translation>
-    </message>
-    <message>
-        <source>ddd d MMM yyyy</source>
-        <comment>full date format, as in “Fri., Dec. 1st 2023”</comment>
-        <translation type="vanished">ddd d MMM yyyy</translation>
-    </message>
-    <message>
-        <source>d MMM yyyy</source>
-        <comment>date format, as in “Dec. 1st 2023”</comment>
-        <translation type="vanished">d MMM yyyy</translation>
-    </message>
-    <message>
-        <source>d MMM</source>
-        <comment>date format without year, as in “Dec. 1st”</comment>
-        <translation type="vanished">d MMM</translation>
-    </message>
-    <message>
         <location filename="../qml/js/dates.js" line="11"/>
         <source>hh&apos;:&apos;mm</source>
         <comment>time only format, as in “10:00 o&apos;clock”, see https://doc.qt.io/archives/qt-5.15/qml-qtqml-date.html#format-strings</comment>
-        <translation type="unfinished">hh&apos;:&apos;mm</translation>
+        <translation>hh&apos;:&apos;mm</translation>
     </message>
     <message>
         <location filename="../qml/js/dates.js" line="13"/>
         <source>d MMM yyyy, hh&apos;:&apos;mm</source>
         <comment>date and time format, as in “Dec. 1st 2023, 10:00 o&apos;clock”, see https://doc.qt.io/archives/qt-5.15/qml-qtqml-date.html#format-strings</comment>
-        <translation type="unfinished">d MMM yyyy, hh&apos;:&apos;mm</translation>
+        <translation>d MMM yyyy, hh&apos;:&apos;mm</translation>
     </message>
     <message>
         <location filename="../qml/js/dates.js" line="15"/>
         <source>ddd d MMM yyyy, hh&apos;:&apos;mm</source>
         <comment>full date and time format, as in “Fri., Dec. 1st 2023, 10:00 o&apos;clock”, see https://doc.qt.io/archives/qt-5.15/qml-qtqml-date.html#format-strings</comment>
-        <translation type="unfinished">ddd d MMM yyyy, hh&apos;:&apos;mm</translation>
+        <translation>ddd d MMM yyyy, hh&apos;:&apos;mm</translation>
     </message>
     <message>
         <location filename="../qml/js/dates.js" line="17"/>
         <source>ddd d MMM yyyy</source>
         <comment>full date format, as in “Fri., Dec. 1st 2023”, see https://doc.qt.io/archives/qt-5.15/qml-qtqml-date.html#format-strings</comment>
-        <translation type="unfinished">ddd d MMM yyyy</translation>
+        <translation>ddd d MMM yyyy</translation>
     </message>
     <message>
         <location filename="../qml/js/dates.js" line="19"/>
         <source>d MMM yyyy</source>
         <comment>date format, as in “Dec. 1st 2023”, see https://doc.qt.io/archives/qt-5.15/qml-qtqml-date.html#format-strings</comment>
-        <translation type="unfinished">d MMM yyyy</translation>
+        <translation>d MMM yyyy</translation>
     </message>
     <message>
         <location filename="../qml/js/dates.js" line="21"/>
         <source>d MMM</source>
         <comment>date format without year, as in “Dec. 1st”, see https://doc.qt.io/archives/qt-5.15/qml-qtqml-date.html#format-strings</comment>
-        <translation type="unfinished">d MMM</translation>
+        <translation>d MMM</translation>
     </message>
     <message>
         <location filename="../qml/js/dates.js" line="64"/>

@@ -24,9 +24,9 @@ BigNumber.config({
         // decimal separator
         decimalSeparator: Qt.locale().decimalPoint,
         // grouping separator of the integer part
-        groupSeparator: Qt.locale().groupSeparator === '.' &&
-                        Qt.locale().decimalPoint === ',' ? "'" :
-                        Qt.locale().groupSeparator,
+        groupSeparator: (Qt.locale().groupSeparator === '.'
+                         && Qt.locale().decimalPoint === ',')
+                        ? "'" : Qt.locale().groupSeparator,
 
         // Qt provides no info about these settings so
         // we keep the defaults:
@@ -43,6 +43,42 @@ BigNumber.config({
     },
 })
 
+function cleanNumberString(string) {
+    // Clean a string entered using a locale-aware numbers-only
+    // keyboard. Use this with "inputMethodHints: Qt.ImhFormattedNumbersOnly".
+    //
+    // This function replaces the locale-dependent decimal point
+    // with a dot so that the values can be converted to numbers.
+    // No validation is performed!
+
+    console.debug("[math] cleaning number input: '" + string + "'")
+
+    var cleaned = string.trim()
+    var dp = Qt.locale().decimalPoint || "."
+    console.debug("[math] decimal point:", dp)
+
+    if (dp !== '.') {
+        cleaned = cleaned.split(dp).join('.')
+    }
+
+    // Replace "," as decimal point even if the current locale's
+    // decimal point is something else. This is a workaround for
+    // users running in one locale but using a keyboard in a different
+    // locale. Dot and comma are the most common decimal point characters.
+    //
+    // This assumes that values are not further formatted, e.g. there
+    // must not be any thousands separators etc.
+    cleaned = cleaned.replace(/,/g, '.')
+
+    // Entering whitespace isn't possible with Qt's default numbers
+    // keyboard but we remove all whitespace anyway in case a number
+    // was pasted from the clipboard.
+    cleaned.replace(/ /g, '')
+
+    console.debug("[math] cleaned number input:", cleaned)
+    return cleaned
+}
+
 function expand(string) {
     // Calculate the result of a simple math expression and
     // return a string of the result.
@@ -55,10 +91,9 @@ function expand(string) {
     //
     // Use this with "inputMethodHints: Qt.ImhFormattedNumbersOnly".
 
-    var input = string.trim().replace(new RegExp(Qt.locale().decimalPoint, 'g'), '.')
-                             .replace(/,/g, '.').replace(/ /g, '')
+    var input = cleanNumberString(string)
 
-    console.debug("[math] input:", input)
+    console.debug("[math] arithmetic input:", input)
 
     if (input === '') {
         return ''
@@ -99,7 +134,7 @@ function expand(string) {
         }
     }
 
-    console.debug("[math] result:", result)
+    console.debug("[math] arithmetic result:", result)
 
     return result.toString()
 }
