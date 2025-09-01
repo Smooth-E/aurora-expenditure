@@ -28,22 +28,32 @@ A.AboutPageBase {
     appRelease: APP_RELEASE
 
     allowDownloadingLicenses: false
-    sourcesUrl: "https://github.com/ichthyosaurus/%1".arg("harbour-" + Qt.application.name)
-    homepageUrl: "https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753"
-    translationsUrl: "https://hosted.weblate.org/projects/%1".arg("harbour-" + Qt.application.name)
+    sourcesUrl: "https://github.com/Smooth-E/aurora-expenditure"
     changelogList: Qt.resolvedUrl("../Changelog.qml")
     licenses: A.License { spdxId: "GPL-3.0-or-later" }
 
-    donations.text: donations.defaultTextCoffee
+    donations.text: qsTr("If you found this app helpful, feel welcome to support the original "
+                        + "developer or the Aurora OS port maintainer by donating.")
+
     donations.services: [
         A.DonationService {
-            name: "Liberapay"
+            name: qsTr("App dev's Liberapay")
             url: "https://liberapay.com/ichthyosaurus"
+        },
+        A.DonationService {
+            name: qsTr("Port maintainer's Boosty")
+            url: "https://boosty.to/smooth-e/donate"
         }
     ]
 
     description: qsTr("A simple app for tracking expenses in groups.")
-    mainAttributions: ["2023-%1 Mirian Margiani".arg((new Date()).getFullYear()), "2022 Tobias Planitzer"]
+    
+    mainAttributions: [
+        "2025 Smooth-E",
+        "2023-%1 Mirian Margiani".arg((new Date()).getFullYear()),
+        "2022 Tobias Planitzer"
+    ]
+
     autoAddOpalAttributions: true
 
     attributions: [
@@ -69,7 +79,7 @@ A.AboutPageBase {
             groups: [
                 A.ContributionGroup {
                     title: qsTr("Programming")
-                    entries: ["Mirian Margiani", "Tobias Planitzer", "yajo10"]
+                    entries: ["Smooth-E", "Mirian Margiani", "Tobias Planitzer", "yajo10"]
                 },
                 A.ContributionGroup {
                     title: qsTr("Icon Design")
