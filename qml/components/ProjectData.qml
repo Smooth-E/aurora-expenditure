@@ -1,7 +1,8 @@
 /*
- * This file is part of harbour-expenditure.
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * This file is part of Expenditure.
  * SPDX-FileCopyrightText: 2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import QtQuick 2.6
@@ -36,6 +37,7 @@ QtObject {
     property var lastBeneficiaries: ([])
     property int ratesMode: RatesMode.hiddenByDefault
     property int feesMode: FeesMode.hiddenByDefault
+    property int informativeCover: InformativeCover.enabled
     property int precision: 2
 
     property var currencies: ([])
@@ -115,6 +117,7 @@ QtObject {
         lastBeneficiaries = metadata.lastBeneficiaries
         ratesMode = metadata.ratesMode
         feesMode = metadata.feesMode
+        informativeCover = metadata.informativeCover
         precision = metadata.precision
     }
 
@@ -174,6 +177,7 @@ QtObject {
             lastPayer = ''
             ratesMode = RatesMode.hiddenByDefault
             feesMode = FeesMode.hiddenByDefault
+            informativeCover = InformativeCover.enabled
             precision = 2
             exchangeRates = {}
             currencies = []

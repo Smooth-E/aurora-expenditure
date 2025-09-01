@@ -1,8 +1,9 @@
 /*
- * This file is part of harbour-expenditure.
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * This file is part of Expenditure.
  * SPDX-FileCopyrightText: 2022 Tobias Planitzer
  * SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import QtQuick 2.6
@@ -18,14 +19,18 @@ import "components"
 
 ApplicationWindow {
     id: appWindow
+
     initialPage: Component { FirstPage {} }
 //    initialPage: Component { SettingsPage {} }
 //    initialPage: Component { CalcPage {} }
 //    initialPage: Component { FeesRatesPage {} }
-    cover: Qt.resolvedUrl("cover/CoverPage.qml")
+    cover: activeProject.active ? Qt.resolvedUrl("cover/CoverPage.qml") : Qt.resolvedUrl("cover/NoProjectCover.qml")
 
     property bool loading: true  // only true during startup
     readonly property string appName: "Expenditure"
+    readonly property bool isLandscape: orientation === Orientation.Landscape
+                                        || orientation === Orientation.LandscapeInverted
+    readonly property real coverTopPadding: isLandscape ? Theme.paddingLarge : Theme.paddingMedium
 
     readonly property ProjectData activeProject: ProjectData {}
     readonly property var _currentlyEditedEntry: ({})
@@ -59,6 +64,13 @@ ApplicationWindow {
         }
 
         return null
+    }
+
+    function getToFirstPageAndOpen(page) {
+        var firstPage = pageStack.find(function(page) { return page.isFirstPage })
+        pageStack.pop(firstPage, PageStackAction.Immediate)
+        pageStack.push(page, {}, PageStackAction.Immediate)
+        appWindow.activate()
     }
 
     // We have to explicitly set the \c _defaultPageOrientations property

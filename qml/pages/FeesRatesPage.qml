@@ -1,7 +1,8 @@
 /*
- * This file is part of harbour-expenditure.
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * This file is part of Expenditure.
  * SPDX-FileCopyrightText: 2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import QtQuick 2.6
@@ -17,6 +18,9 @@ import "../js/dates.js" as Dates
 Dialog {
     id: root
     allowedOrientations: Orientation.All
+
+    readonly property bool isImportantPage: true
+    readonly property string coverMessage: qsTr("Viewing transactions")
 
     property int projectRowid
     readonly property bool dataHasChanged: _dataHasChanged

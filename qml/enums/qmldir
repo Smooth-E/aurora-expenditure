@@ -1,7 +1,11 @@
 module Enums
+
 # This file is part of Expenditure.
 # SPDX-FileCopyrightText: 2024 Mirian Margiani
+# SPDX-FileCopyrightText: 2025 Smooth-E
 # SPDX-License-Identifier: GPL-3.0-or-later
+
 singleton FeesMode 1.0 FeesMode.qml
 singleton RatesMode 1.0 RatesMode.qml
 singleton SortOrder 1.0 SortOrder.qml
+singleton InformativeCover 1.0 InformativeCover.qml

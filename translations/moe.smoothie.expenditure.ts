@@ -80,114 +80,142 @@
 <context>
     <name>CalcPage</name>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="140"/>
+        <location filename="../qml/pages/CalcPage.qml" line="144"/>
         <source>Calculations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="148"/>
+        <location filename="../qml/pages/CalcPage.qml" line="152"/>
         <source>Spending overview</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="238"/>
+        <location filename="../qml/pages/CalcPage.qml" line="242"/>
         <source>Define base exchange rates below for the following currencies: %1. A one-to-one rate has been used in calculations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="247"/>
+        <location filename="../qml/pages/CalcPage.qml" line="251"/>
         <source>Settlement suggestion</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="253"/>
+        <location filename="../qml/pages/CalcPage.qml" line="257"/>
         <source>Calculate direct debts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="335"/>
+        <location filename="../qml/pages/CalcPage.qml" line="339"/>
         <source>Base exchange rates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="355"/>
+        <location filename="../qml/pages/CalcPage.qml" line="359"/>
         <source>Transactions and fees</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="368"/>
+        <location filename="../qml/pages/CalcPage.qml" line="372"/>
         <source>Click here to review and edit fees and exchange rates individually for all transactions. Transactions that do not declare a custom exchange rate are converted using the base exchange rates defined above.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="159"/>
+        <location filename="../qml/pages/CalcPage.qml" line="163"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="162"/>
+        <location filename="../qml/pages/CalcPage.qml" line="25"/>
+        <source>Calculating settlement</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/CalcPage.qml" line="166"/>
         <source>Payments</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="163"/>
+        <location filename="../qml/pages/CalcPage.qml" line="167"/>
         <source>Benefits</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="181"/>
+        <location filename="../qml/pages/CalcPage.qml" line="185"/>
         <source>total</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="164"/>
+        <location filename="../qml/pages/CalcPage.qml" line="168"/>
         <source>Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="270"/>
+        <location filename="../qml/pages/CalcPage.qml" line="274"/>
         <source>Payer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="280"/>
+        <location filename="../qml/pages/CalcPage.qml" line="284"/>
         <source>Recipient</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="285"/>
+        <location filename="../qml/pages/CalcPage.qml" line="289"/>
         <source>Sum [%1]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="121"/>
-        <location filename="../qml/pages/CalcPage.qml" line="362"/>
+        <location filename="../qml/pages/CalcPage.qml" line="125"/>
+        <location filename="../qml/pages/CalcPage.qml" line="366"/>
         <source>Review transactions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="125"/>
+        <location filename="../qml/pages/CalcPage.qml" line="129"/>
         <source>Share detailed report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="129"/>
+        <location filename="../qml/pages/CalcPage.qml" line="133"/>
         <source>Share compact report</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="82"/>
+        <location filename="../qml/pages/CalcPage.qml" line="86"/>
         <source>A detailed report has been copied to the clipboard.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="83"/>
+        <location filename="../qml/pages/CalcPage.qml" line="87"/>
         <source>A compact report has been copied to the clipboard.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="104"/>
+        <location filename="../qml/pages/CalcPage.qml" line="108"/>
         <source>Spendings report</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>CoverPage</name>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="23"/>
+        <source>Expense manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="28"/>
+        <source>Manage group expenses in different currencies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="41"/>
+        <source>Active project</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="53"/>
+        <source>Expenses logged</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -248,87 +276,92 @@
 <context>
     <name>ExpenseDialog</name>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="190"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="37"/>
+        <source>Adding an expense</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="194"/>
         <source>Discarded all changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="192"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="196"/>
         <source>Discarded the entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="205"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="209"/>
         <source>Add fees</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="218"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="222"/>
         <source>Custom exchange rate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="237"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="241"/>
         <source>Edit expense</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="237"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="241"/>
         <source>New expense</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="238"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="242"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="239"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="243"/>
         <source>Discard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="243"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="247"/>
         <source>Date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="263"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="267"/>
         <source>Expense</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="274"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="278"/>
         <source>Price</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="304"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="308"/>
         <source>Currency</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="332"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="336"/>
         <source>Additional notes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="390"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="394"/>
         <source>Payer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="398"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="402"/>
         <source>Beneficiaries</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="427"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="431"/>
         <source>everyone</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="557"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="561"/>
         <source>Additional name</source>
         <translation type="unfinished"></translation>
     </message>
@@ -345,17 +378,22 @@
 <context>
     <name>FeesRatesPage</name>
     <message>
-        <location filename="../qml/pages/FeesRatesPage.qml" line="72"/>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="23"/>
+        <source>Viewing transactions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="76"/>
         <source>Transactions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FeesRatesPage.qml" line="73"/>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="77"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/FeesRatesPage.qml" line="74"/>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="78"/>
         <source>Discard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -510,6 +548,19 @@
     <message>
         <location filename="../qml/MySupportDialog.qml" line="64"/>
         <source>If you can afford it, donating is the easiest way to ensure that I can continue working on apps for Sailfish. Any amount is appreciated, be it a cup of coffee, a slice of pizza, or more.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NoProjectCover</name>
+    <message>
+        <location filename="../qml/cover/NoProjectCover.qml" line="19"/>
+        <source>Welcome to Expenditure!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/NoProjectCover.qml" line="24"/>
+        <source>Create a project to start tracking your expenses</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -767,8 +818,8 @@
 <context>
     <name>ProjectData</name>
     <message>
-        <location filename="../qml/components/ProjectData.qml" line="112"/>
-        <location filename="../qml/components/ProjectData.qml" line="171"/>
+        <location filename="../qml/components/ProjectData.qml" line="114"/>
+        <location filename="../qml/components/ProjectData.qml" line="174"/>
         <source>User</source>
         <translation type="unfinished"></translation>
     </message>
@@ -785,121 +836,136 @@ Please restart the app and check the logs.</source>
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="155"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="164"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
         <source>Project</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="26"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="30"/>
         <source>New project</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="51"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="26"/>
+        <source>Editing settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="55"/>
         <source>Export to</source>
         <comment>Page title for the backup output folder picker</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="60"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="64"/>
         <source>Exported expenses to “%1”</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="69"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="73"/>
         <source>Import expenses</source>
         <comment>Page title for the file import picker</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="81"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
         <source>Imported %1 expenses into “%2”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="89"/>
         <source>Failed to import “%1”.</source>
         <comment>%1 is a filename</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="144"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="185"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="148"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="189"/>
         <source>New project ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="231"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="271"/>
         <source>Currency</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="281"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="285"/>
         <source>The settlement suggestion is calculated in this currency. Select the most used currency in your group for this.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="290"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="294"/>
         <source>Always show exchange rate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="291"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="295"/>
         <source>If this option is enabled, the field for entering exchange rates is always shown when adding a new transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="304"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="308"/>
         <source>Always show fees</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="305"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="309"/>
         <source>If this option is enabled, the field for entering fees is always shown when adding a new transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="318"/>
-        <source>Project members</source>
+        <location filename="../qml/pages/SettingsPage.qml" line="322"/>
+        <source>Informative cover</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="323"/>
+        <source>When enabled, active project name and the number of logged expenses will be shown on cover. Otherwise cover will display a placeholder text.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="334"/>
+        <source>Project members</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="350"/>
         <source>Base exchange rates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="347"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="363"/>
         <source>Backup options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="354"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="370"/>
         <source>Import</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="358"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="374"/>
         <source>Export</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="364"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="380"/>
         <source>You can import and export expenses of the current project to CSV. Project metadata is not included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="366"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="382"/>
         <source>When importing, imported entries will be added to the current project and old entries will be kept.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -980,14 +1046,14 @@ Please restart the app and check the logs.</source>
 <context>
     <name>storage</name>
     <message>
-        <location filename="../qml/js/storage.js" line="840"/>
-        <source>everyone</source>
+        <location filename="../qml/js/storage.js" line="637"/>
+        <location filename="../qml/js/storage.js" line="703"/>
+        <source>User</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/js/storage.js" line="633"/>
-        <location filename="../qml/js/storage.js" line="699"/>
-        <source>User</source>
+        <location filename="../qml/js/storage.js" line="845"/>
+        <source>everyone</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

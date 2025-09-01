@@ -80,115 +80,143 @@
 <context>
     <name>CalcPage</name>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="140"/>
+        <location filename="../qml/pages/CalcPage.qml" line="144"/>
         <source>Calculations</source>
         <translation>Калькулятор</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="148"/>
+        <location filename="../qml/pages/CalcPage.qml" line="152"/>
         <source>Spending overview</source>
         <translation>Обзор расходов</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="238"/>
+        <location filename="../qml/pages/CalcPage.qml" line="242"/>
         <source>Define base exchange rates below for the following currencies: %1. A one-to-one rate has been used in calculations</source>
         <translation>Установите курс обмена по умолчанию для следующих валют: %1. В вычислениях был использован курс обмена один к одному</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="247"/>
+        <location filename="../qml/pages/CalcPage.qml" line="251"/>
         <source>Settlement suggestion</source>
         <translation>Предложение компромисса</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="253"/>
+        <location filename="../qml/pages/CalcPage.qml" line="257"/>
         <source>Calculate direct debts</source>
         <translation>Вычислить прямой долг</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="335"/>
+        <location filename="../qml/pages/CalcPage.qml" line="339"/>
         <source>Base exchange rates</source>
         <translation>Базовый курс обмена</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="355"/>
+        <location filename="../qml/pages/CalcPage.qml" line="359"/>
         <source>Transactions and fees</source>
         <translation>Переводы и траты</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="368"/>
+        <location filename="../qml/pages/CalcPage.qml" line="372"/>
         <source>Click here to review and edit fees and exchange rates individually for all transactions. Transactions that do not declare a custom exchange rate are converted using the base exchange rates defined above.</source>
         <translation>Нажмите здесь, чтобы посмотреть и изменить траты, а также курсы обмена валют отдельно для каждой транзакции. Транзакции, для которых не указан отдельный курс обмена валют, используют курс обмена по умолчанию, указанный выше.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="159"/>
+        <location filename="../qml/pages/CalcPage.qml" line="163"/>
         <source>Name</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="162"/>
+        <location filename="../qml/pages/CalcPage.qml" line="25"/>
+        <source>Calculating settlement</source>
+        <translation>Подсчет компромисса</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/CalcPage.qml" line="166"/>
         <source>Payments</source>
         <translation>Платежи</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="163"/>
+        <location filename="../qml/pages/CalcPage.qml" line="167"/>
         <source>Benefits</source>
         <translation>Бонусы</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="181"/>
+        <location filename="../qml/pages/CalcPage.qml" line="185"/>
         <source>total</source>
         <translation>Всего</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="164"/>
+        <location filename="../qml/pages/CalcPage.qml" line="168"/>
         <source>Balance</source>
         <translation>Баланс</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="270"/>
+        <location filename="../qml/pages/CalcPage.qml" line="274"/>
         <source>Payer</source>
         <translation>Плательщик</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="280"/>
+        <location filename="../qml/pages/CalcPage.qml" line="284"/>
         <source>Recipient</source>
         <translation>Получатель</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="285"/>
+        <location filename="../qml/pages/CalcPage.qml" line="289"/>
         <source>Sum [%1]</source>
         <translation>Сумма [%1]</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="121"/>
-        <location filename="../qml/pages/CalcPage.qml" line="362"/>
+        <location filename="../qml/pages/CalcPage.qml" line="125"/>
+        <location filename="../qml/pages/CalcPage.qml" line="366"/>
         <source>Review transactions</source>
-        <translation>Посмотреть транзакции</translation>
+        <translation>Просмотр транзакций</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="125"/>
+        <location filename="../qml/pages/CalcPage.qml" line="129"/>
         <source>Share detailed report</source>
         <translation>Отправить подробный отчет</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="129"/>
+        <location filename="../qml/pages/CalcPage.qml" line="133"/>
         <source>Share compact report</source>
         <translation>Отправить компактный отчет</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="82"/>
+        <location filename="../qml/pages/CalcPage.qml" line="86"/>
         <source>A detailed report has been copied to the clipboard.</source>
         <translation>Подробный отчет был скопирован в буфер обмена.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="83"/>
+        <location filename="../qml/pages/CalcPage.qml" line="87"/>
         <source>A compact report has been copied to the clipboard.</source>
         <translation>Компактный отчет был скопирован в буфер обмена.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="104"/>
+        <location filename="../qml/pages/CalcPage.qml" line="108"/>
         <source>Spendings report</source>
         <translation>Отчет по тратам</translation>
+    </message>
+</context>
+<context>
+    <name>CoverPage</name>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="23"/>
+        <source>Expense manager</source>
+        <translation>Менеджер расходов</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="28"/>
+        <source>Manage group expenses in different currencies</source>
+        <translation>Записывайте групповые расходы в разных валютах</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="41"/>
+        <source>Active project</source>
+        <translation>Активный проект</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="53"/>
+        <source>Expenses logged</source>
+        <translation>Всего транзакций</translation>
     </message>
 </context>
 <context>
@@ -250,87 +278,92 @@
 <context>
     <name>ExpenseDialog</name>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="190"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="37"/>
+        <source>Adding an expense</source>
+        <translation>Добавление траты</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="194"/>
         <source>Discarded all changes</source>
         <translation>Сбросить все изменения</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="192"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="196"/>
         <source>Discarded the entry</source>
         <translation>Не добавлять транзакцию</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="205"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="209"/>
         <source>Add fees</source>
         <translation>Добавить пошлины</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="218"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="222"/>
         <source>Custom exchange rate</source>
         <translation>Уникальный курс обмена</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="237"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="241"/>
         <source>Edit expense</source>
         <translation>Редактировать трату</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="237"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="241"/>
         <source>New expense</source>
         <translation>Новая трата</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="238"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="242"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="239"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="243"/>
         <source>Discard</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="243"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="247"/>
         <source>Date</source>
         <translation>Дата</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="263"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="267"/>
         <source>Expense</source>
         <translation>Трата</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="274"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="278"/>
         <source>Price</source>
         <translation>Цена</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="304"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="308"/>
         <source>Currency</source>
         <translation>Валюта</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="332"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="336"/>
         <source>Additional notes</source>
         <translation>Заметка</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="390"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="394"/>
         <source>Payer</source>
         <translation>Плательщик</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="398"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="402"/>
         <source>Beneficiaries</source>
         <translation>Выгодополучатели</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="427"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="431"/>
         <source>everyone</source>
         <translation>Все</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ExpenseDialog.qml" line="557"/>
+        <location filename="../qml/pages/ExpenseDialog.qml" line="561"/>
         <source>Additional name</source>
         <translation>Дополнительное имя</translation>
     </message>
@@ -347,17 +380,22 @@
 <context>
     <name>FeesRatesPage</name>
     <message>
-        <location filename="../qml/pages/FeesRatesPage.qml" line="72"/>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="23"/>
+        <source>Viewing transactions</source>
+        <translation>Просмотр транзакций</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="76"/>
         <source>Transactions</source>
         <translation>Транзакции</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FeesRatesPage.qml" line="73"/>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="77"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FeesRatesPage.qml" line="74"/>
+        <location filename="../qml/pages/FeesRatesPage.qml" line="78"/>
         <source>Discard</source>
         <translation>Отмена</translation>
     </message>
@@ -515,6 +553,19 @@
         <location filename="../qml/MySupportDialog.qml" line="64"/>
         <source>If you can afford it, donating is the easiest way to ensure that I can continue working on apps for Sailfish. Any amount is appreciated, be it a cup of coffee, a slice of pizza, or more.</source>
         <translation>Если вы можете себе это позволить, пожертвование — это самый простой способ гарантировать, что я смогу продолжать работать над приложениями для Sailfish. Любая сумма будет оценена по достоинству, будь то чашка кофе, кусок пиццы или что-то еще.</translation>
+    </message>
+</context>
+<context>
+    <name>NoProjectCover</name>
+    <message>
+        <location filename="../qml/cover/NoProjectCover.qml" line="19"/>
+        <source>Welcome to Expenditure!</source>
+        <translation>Добро пожаловать в Expenditure!</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/NoProjectCover.qml" line="24"/>
+        <source>Create a project to start tracking your expenses</source>
+        <translation>Создайте проект, чтобы начать записывать расходы</translation>
     </message>
 </context>
 <context>
@@ -775,8 +826,8 @@
 <context>
     <name>ProjectData</name>
     <message>
-        <location filename="../qml/components/ProjectData.qml" line="112"/>
-        <location filename="../qml/components/ProjectData.qml" line="171"/>
+        <location filename="../qml/components/ProjectData.qml" line="114"/>
+        <location filename="../qml/components/ProjectData.qml" line="174"/>
         <source>User</source>
         <translation>Пользователь</translation>
     </message>
@@ -795,121 +846,136 @@ Please restart the app and check the logs.</source>
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="155"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="159"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="164"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="168"/>
         <source>Project</source>
         <translation>Проект</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="26"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="30"/>
         <source>New project</source>
         <translation>Новый проект</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="51"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="26"/>
+        <source>Editing settings</source>
+        <translation>Редактирование настроек</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="55"/>
         <source>Export to</source>
         <comment>Page title for the backup output folder picker</comment>
         <translation>Экспортировать</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="60"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="64"/>
         <source>Exported expenses to “%1”</source>
         <translation>Траты экспортированы в &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="69"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="73"/>
         <source>Import expenses</source>
         <comment>Page title for the file import picker</comment>
         <translation>Импортировать траты</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="81"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
         <source>Imported %1 expenses into “%2”.</source>
         <translation>Импортировано %1 трат в &quot;%2&quot;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="85"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="89"/>
         <source>Failed to import “%1”.</source>
         <comment>%1 is a filename</comment>
         <translation>Не удалось импортировать &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="144"/>
-        <location filename="../qml/pages/SettingsPage.qml" line="185"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="148"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="189"/>
         <source>New project ...</source>
         <translation>Новый проект...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="231"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="235"/>
         <source>Name</source>
         <translation>Название</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="267"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="271"/>
         <source>Currency</source>
         <translation>Валюта</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="281"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="285"/>
         <source>The settlement suggestion is calculated in this currency. Select the most used currency in your group for this.</source>
         <translation>В этой валюте рассчитывается предложение компромисса. Рекомендуем выбрать наиболее используемую валюты в вашей группе.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="290"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="294"/>
         <source>Always show exchange rate</source>
         <translation>Всегда показывать курс обмена</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="291"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="295"/>
         <source>If this option is enabled, the field for entering exchange rates is always shown when adding a new transaction.</source>
         <translation>Если включено, поле для настройки курса обмена всегда будет показано при добавлении новой транзакции.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="304"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="308"/>
         <source>Always show fees</source>
         <translation>Всегда показывать пошлины</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="305"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="309"/>
         <source>If this option is enabled, the field for entering fees is always shown when adding a new transaction.</source>
         <translation>Если включено, поле для ввода информации о пошлинах всегда будет показано при добавлении новой транзакции.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="318"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="322"/>
+        <source>Informative cover</source>
+        <translation>Информативная обложка</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="323"/>
+        <source>When enabled, active project name and the number of logged expenses will be shown on cover. Otherwise cover will display a placeholder text.</source>
+        <translation>На информативную обложку выводится имя активного проекта и количество записанных транзакций. На простой обложке будут лишь кнопки быстрых действий.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="334"/>
         <source>Project members</source>
         <translation>Участники проекта</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="334"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="350"/>
         <source>Base exchange rates</source>
         <translation>Курс обмена по умолчанию</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="347"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="363"/>
         <source>Backup options</source>
         <translation>Резервное копирование</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="354"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="370"/>
         <source>Import</source>
         <translation>Импорт</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="358"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="374"/>
         <source>Export</source>
         <translation>Экспорт</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="364"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="380"/>
         <source>You can import and export expenses of the current project to CSV. Project metadata is not included.</source>
         <translation>Вы можете импортировать и экспортировать информацию о тратах в текущем проекте в формате CSV. Настройки проекта не входят в такие резервные копии.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="366"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="382"/>
         <source>When importing, imported entries will be added to the current project and old entries will be kept.</source>
         <translation>При импорте новая информация о тратах будет добавлена к уже существующей.</translation>
     </message>
@@ -990,15 +1056,15 @@ Please restart the app and check the logs.</source>
 <context>
     <name>storage</name>
     <message>
-        <location filename="../qml/js/storage.js" line="840"/>
-        <source>everyone</source>
-        <translation>Все</translation>
-    </message>
-    <message>
-        <location filename="../qml/js/storage.js" line="633"/>
-        <location filename="../qml/js/storage.js" line="699"/>
+        <location filename="../qml/js/storage.js" line="637"/>
+        <location filename="../qml/js/storage.js" line="703"/>
         <source>User</source>
         <translation>Пользователь</translation>
+    </message>
+    <message>
+        <location filename="../qml/js/storage.js" line="845"/>
+        <source>everyone</source>
+        <translation>Все</translation>
     </message>
 </context>
 </TS>

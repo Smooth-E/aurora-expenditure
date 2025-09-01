@@ -1,7 +1,8 @@
 /*
- * This file is part of harbour-expenditure.
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * This file is part of Expenditure.
  * SPDX-FileCopyrightText: 2024-2025 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import QtQuick 2.6
@@ -31,6 +32,9 @@ Dialog {
             nameField.forceActiveFocus()
         }
     }
+
+    readonly property bool isImportantPage: true
+    readonly property string coverMessage: qsTr("Adding an expense")
 
     property date _now: new Date()
     property string _nowLocalTime: Qt.formatDateTime(_now, Dates.dbDateFormat)

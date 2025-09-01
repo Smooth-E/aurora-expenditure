@@ -1,7 +1,8 @@
 /*
- * This file is part of harbour-expenditure.
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * This file is part of Expenditure.
  * SPDX-FileCopyrightText: 2024-2025 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import QtQuick 2.6
@@ -19,6 +20,9 @@ import "../js/calculation.js" as Calculation
 Page {
     id: root
     allowedOrientations: Orientation.All
+
+    readonly property bool isImportantPage: true
+    readonly property string coverMessage: qsTr("Calculating settlement")
 
     property var expenses: ({})
     property string baseCurrency: ''

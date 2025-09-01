@@ -1,7 +1,8 @@
 /*
- * This file is part of harbour-expenditure.
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * This file is part of Expenditure.
  * SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 import QtQuick 2.6
@@ -20,6 +21,9 @@ import "../js/storage.js" as Storage
 Dialog {
     id: root
     allowedOrientations: Orientation.All
+
+    readonly property bool isImportantPage: true
+    readonly property string coverMessage: qsTr("Editing settings")
 
     property var allProjects: Storage.getProjects(projectDataComponent, root)
     property ProjectData selectedProject: ProjectData { rowid: -1000 }
@@ -311,6 +315,18 @@ Dialog {
                 onClicked: {
                     if (checked) selectedProject.feesMode = FeesMode.hiddenByDefault // toggled
                     else selectedProject.feesMode = FeesMode.shownByDefault
+                }
+            }
+
+            TextSwitch {
+                text: qsTr("Informative cover")
+                description: qsTr("When enabled, active project name and the number of logged expenses " +
+                                  "will be shown on cover. Otherwise cover will display a placeholder text.")
+                automaticCheck: false
+                checked: selectedProject.informativeCover === InformativeCover.enabled
+
+                onClicked: {
+                    selectedProject.informativeCover = checked ? InformativeCover.disabled : InformativeCover.enabled
                 }
             }
 

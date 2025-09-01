@@ -1,7 +1,8 @@
 /*
- * This file is part of harbour-expenditure.
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * This file is part of Expenditure.
  * SPDX-FileCopyrightText: 2018-2025 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
 .pragma library
@@ -216,6 +217,7 @@ DB.migrations = [
                 last_beneficiaries TEXT,
                 rates_mode INTEGER,
                 fees_mode INTEGER,
+                informative_cover INTEGER,
                 precision INTEGER,
                 project_id_timestamp TEXT
             );
@@ -231,6 +233,7 @@ DB.migrations = [
                 last_beneficiaries,
                 rates_mode,
                 fees_mode,
+                informative_cover,
                 precision,
                 project_id_timestamp
             ) SELECT
@@ -243,6 +246,7 @@ DB.migrations = [
                 project_recent_beneficiaries_boolarray,
                 0,
                 0,
+                1,
                 2,
                 project_id_timestamp
             FROM projects_table;
@@ -641,12 +645,12 @@ function _saveNewProject(projectData) {
             last_currency, last_payer,
             last_beneficiaries,
             rates_mode, fees_mode,
-            precision
+            informative_cover, precision
         ) VALUES (
             NULL,
             ?, ?, ?,
             ?, ?, ?,
-            ?, ?,
+            ?, ?, ?,
             ?
         );
     ', [projectData.name, projectData.baseCurrency,
@@ -654,7 +658,7 @@ function _saveNewProject(projectData) {
         projectData.lastCurrency, projectData.lastPayer,
         joinMembersList(projectData.lastBeneficiaries),
         projectData.ratesMode, projectData.feesMode,
-        projectData.precision,
+        projectData.informativeCover, projectData.precision,
     ])
 
     return res.insertId
@@ -711,14 +715,14 @@ function _updateProject(projectData) {
             last_currency = ?, last_payer = ?,
             last_beneficiaries = ?,
             rates_mode = ?, fees_mode = ?,
-            precision = ?
+            informative_cover = ?, precision = ?
         WHERE rowid = ?;
     ', [projectData.name, projectData.baseCurrency,
         joinMembersList(newMembers),
         projectData.lastCurrency, lastPayer,
         joinMembersList(lastBeneficiaries),
         projectData.ratesMode, projectData.feesMode,
-        projectData.precision,
+        projectData.informativeCover, projectData.precision,
         projectData.rowid])
 
     return projectData.rowid
@@ -773,6 +777,7 @@ function getProjectMetadata(ident) {
             lastBeneficiaries: splitMembersList(item.last_beneficiaries),
             ratesMode: item.rates_mode,
             feesMode: item.fees_mode,
+            informativeCover: item.informative_cover,
             precision: item.precision || 2,
         }
     }
