@@ -1,8 +1,8 @@
 # This file is part of Expenditure.
-# SPDX-License-Identifier: GPL-3.0-or-later
 # SPDX-FileCopyrightText: 2022 Tobias Planitzer
 # SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
 # SPDX-FileCopyrightText: 2025 Smooth-E
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 *.user*
 *~
@@ -14,11 +14,14 @@ dist-old*
 tmp*
 icons-src/raw
 TODO
+*.log
 
 databases/
 
 libs/opal-translations
 libs/opal-docs
+
+vendor/
 
 # WSL metadata
 *:Zone.Identifier
