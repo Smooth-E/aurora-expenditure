@@ -2,131 +2,70 @@
 SPDX-FileCopyrightText: 2018-2025 Mirian Margiani
 SPDX-FileCopyrightText: 2022 Tobias Planitzer
 SPDX-FileCopyrightText: 2023 yajo10
+SPDX-FileCopyrightText: 2025 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
 ![Expenditure banner](dist/banner-small.png)
 
-# Expenditure for Sailfish OS
+# Expenditure для ОС Аврора
 
-[![Liberapay donations](https://img.shields.io/liberapay/receives/ichthyosaurus)](https://liberapay.com/ichthyosaurus)
-[![Translations](https://hosted.weblate.org/widgets/harbour-expenditure/-/translations/svg-badge.svg)](https://hosted.weblate.org/projects/harbour-expenditure/translations/)
-[![Source code license](https://img.shields.io/badge/source_code-GPL--3.0--or--later-yellowdarkgreen)](https://github.com/ichthyosaurus/harbour-expenditure/tree/main/LICENSES)
-[![REUSE status](https://api.reuse.software/badge/github.com/ichthyosaurus/harbour-expenditure)](https://api.reuse.software/info/github.com/ichthyosaurus/harbour-expenditure)
-[![Development status](https://img.shields.io/badge/development-stable-blue)](https://github.com/ichthyosaurus/harbour-expenditure)
+Expenditure - это простое приложение для учета групповых расходов. Оно поможет разделить счет в кафе, или посмотреть, во сколько обойдется путешествие с друзьями, даже если вы планируете тратить в разных валютах.
 
+## Функционал
 
+- Создавайте несколько проектов с разными участниками
+- Добавляйте и редактируйте траты
+- Используйте несколько валют с фиксированным курсом или с курсом, зависящим от даты
+- Подсчитывайте общие затраты или затраты для отдельного участника
+- Создавайте отчеты для предложения компромисса
+- Делитесь отчетами о тратах с другими
+- Экспорт и импорт данных о тратах в отдельном проекте
 
-Expenditure is a simple app for tracking expenses in groups
+## Разрешения
 
+Expenditure требуются следующие разрешения, чтобы экспортировать информацию о тратах в проектах:
 
-Expenditure is a helpful companion for tracking and splitting bills, project or
-trip expenses among groups with extended support for multiple currencies. This
-comes in handy e.g. on a group-trip through different countries while at the
-same time keeping track of other bills at home.
+- Общая папка
+- Папки пользователя
+- Съёмные носители
 
-**Features:**
+## Разработчики
 
-- create multiple projects with different members
-- add and edit expenses
-- use multiple currencies with constant or date-specific exchange rates
-- calculate total and individual spending overview
-- generate settlement suggestion
-- backup and restore project expenses
-- share report
+Это приложение до 2022 года разрабатывалось и поддерживалось Tobias Planitzer вплоть до версии 0.2. Версия 0.3 была выпущена yajo10 в 2023 году. Mirian Margiani (ichthyosaurus) продолжает разработку проекта с 2023 года. Адаптация для ОС Аврора подготовлена и поддерживается Smooth-E. 
 
-## Permissions
+## Поддержать проект
 
-Expenditure requires the following permissions:
+Если у вас есть какие-то вопросы, предложения или вы столкнулись с проблемой при использовании приложения на ОС Аврора, пожалуйста, оставляйте свои комментарии в [трекере GitHub Issues этого репозитория](https://github.com/Smooth-E/aurora-expenditure/issues).
 
-- PublicDir, UserDirs, RemovableMedia: to save exported reports
+## Сборка и предложение изменений
 
-## Acknowledgements
+*Не стесняйтесь сообщать о проблемах и предлагать свои изменения!*
 
-This app was originally created by Tobias Planitzer since 2022 up until version
-0.2. An intermediate version 0.3 was released by yajo10 in 2023. Development
-is continued by Mirian Margiani (ichthyosaurus) since 2023.
+1. Клонируйте этот репозиторий
+   ```sh
+   git clone --recurse-submodules https://github.com/Smooth-E/aurora-expenditure
+   ```
+3. Соберите проект при помощи вашей версии Aurora SDK. Рекомендуется использовать Aurora SDK MB2 Tools на Linux или внутри WSL. На других конфигурациях возможность сборки проекта не проверяется, но вы всегда можете предложить необходимые исправления для работы в вашем окружении.
 
+Если вы предлагаете изменения - не забудьте упомянуть себя на странице [`AboutPage`](qml/pages/AboutPage.qml)!
 
+## Финансовая поддержка
 
+Вы можете поддержать разработчика оригинального приложения, [пожертвовав через Liberapay](https://liberapay.com/ichthyosaurus).
 
-## Help and support
+Вы можете поддержать разработчика порта для ОС Аврора, [пожертвовав через Boosty](https://boosty.to/smooth-e/donate).
 
-You are welcome to [leave a comment in the forum](https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753)
-if you have any questions or ideas.
-
-
-## Translations
-
-It would be wonderful if the app could be translated in as many languages as possible!
-
-Translations are managed using
-[Weblate](https://hosted.weblate.org/projects/harbour-expenditure/translations).
-Please prefer this over pull request (which are still welcome, of course).
-If you just found a minor problem, you can also
-[leave a comment in the forum](https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753)
-or [open an issue](https://github.com/ichthyosaurus/harbour-expenditure/issues/new).
-
-Please include the following details:
-
-1. the language you were using
-2. where you found the error
-3. the incorrect text
-4. the correct translation
-
-
-### Manually updating translations
-
-Please prefer using
-[Weblate](https://hosted.weblate.org/projects/harbour-expenditure) over this.
-You can follow these steps to manually add or update a translation:
-
-1. *If it did not exist before*, create a new catalog for your language by copying the
-   base file [translations/harbour-expenditure.ts](translations/harbour-expenditure.ts).
-   Then add the new translation to [harbour-expenditure.pro](harbour-expenditure.pro).
-2. Add yourself to the list of contributors in [qml/pages/AboutPage.qml](qml/pages/AboutPage.qml).
-3. (optional) Translate the app's name in [harbour-expenditure.desktop](harbour-expenditure.desktop)
-   if there is a (short) native term for it in your language.
-
-See [the Qt documentation](https://doc.qt.io/qt-5/qml-qtqml-date.html#details) for
-details on how to translate date formats to your *local* format.
-
-
-## Building and contributing
-
-*Bug reports, and contributions for translations, bug fixes, or new features are always welcome!*
-
-1. Clone the repository by running `git clone https://github.com/ichthyosaurus/harbour-expenditure.git`
-2. Open `harbour-expenditure.pro` in Sailfish OS IDE (Qt Creator for Sailfish)
-3. To run on emulator, select the `i486` target and press the run button
-4. To build for the device, select the `armv7hl` target and click “deploy all”;
-   the RPM packages will be in the `RPMS` folder
-
-If you contribute, please do not forget to add yourself to the list of
-contributors in [qml/pages/AboutPage.qml](qml/pages/AboutPage.qml)!
-
-
-
-
-## Donations
-
-If you want to support my work, I am always happy if you buy me a cup of coffee
-through [Liberapay](https://liberapay.com/ichthyosaurus).
-
-Of course it would be much appreciated as well if you support this project by
-contributing to translations or code! See above how you can contribute 🎕.
-
+Конечно же, мы будем очень рады, если вы поможете проекту, предложив свои правки или улучшения. Прочтите секцию выше, чтобы узнать больше ✨
 
 ## License
 
-> Copyright (C) 2023-2025  Mirian Margiani
->
-> Copyright (C) 2022  Tobias Planitzer
+- Copyright (C) 2025 Smooth-E
+- Copyright (C) 2023-2025  Mirian Margiani
+- Copyright (C) 2022 Tobias Planitzer
 
-Expenditure is Free Software released under the terms of the
+Expenditure - свободное программное обеспечение, которое распространяется под лицензией 
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
-The source code is available [on Github](https://github.com/ichthyosaurus/harbour-expenditure).
-All documentation is released under the terms of the
+Исходный код доступен [на Github](https://github.com/Smooth-E/aurora-expenditure).
+Вся сопутствующая документация распространяется под лицензией 
 [GNU Free Documentation License v1.3 (or later)](https://spdx.org/licenses/GFDL-1.3-or-later.html).
-
-This project follows the [REUSE specification](https://api.reuse.software/info/github.com/ichthyosaurus/harbour-expenditure).
