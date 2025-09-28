@@ -120,17 +120,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="339"/>
+        <location filename="../qml/pages/CalcPage.qml" line="363"/>
         <source>Base exchange rates</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="359"/>
+        <location filename="../qml/pages/CalcPage.qml" line="384"/>
         <source>Transactions and fees</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="372"/>
+        <location filename="../qml/pages/CalcPage.qml" line="397"/>
         <source>Click here to review and edit fees and exchange rates individually for all transactions. Transactions that do not declare a custom exchange rate are converted using the base exchange rates defined above.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -165,23 +165,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="274"/>
+        <location filename="../qml/pages/CalcPage.qml" line="285"/>
         <source>Payer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="284"/>
+        <location filename="../qml/pages/CalcPage.qml" line="299"/>
         <source>Recipient</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/CalcPage.qml" line="289"/>
+        <location filename="../qml/pages/CalcPage.qml" line="306"/>
         <source>Sum [%1]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/CalcPage.qml" line="125"/>
-        <location filename="../qml/pages/CalcPage.qml" line="366"/>
+        <location filename="../qml/pages/CalcPage.qml" line="391"/>
         <source>Review transactions</source>
         <translation type="unfinished"></translation>
     </message>

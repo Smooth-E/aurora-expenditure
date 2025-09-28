@@ -262,6 +262,15 @@ Page {
                 }
             }
 
+            TextMetrics {
+                id: arrowTextMetrics
+
+                readonly property real widgetWidth: width + Theme.dp(20)
+
+                text: "→"
+                font.pixelSize: Theme.fontSizeSmall
+            }
+
             GridLayout {
                 visible: settlementHeader.visible
                 width: parent.width - 2*x
@@ -270,25 +279,36 @@ Page {
                 rowSpacing: 0
                 columns: 4
 
+                // Column headers
+
                 TotalsGridHeader {
                     text: qsTr("Payer")
                     horizontalAlignment: Text.AlignLeft
+
                     Layout.fillWidth: true
                 }
+
                 TotalsGridHeader {
                     text: ''
+
                     Layout.fillWidth: false
-                    Layout.preferredWidth: parent.width / 5
+                    Layout.preferredWidth: arrowTextMetrics.widgetWidth
                 }
+
                 TotalsGridHeader {
                     text: qsTr("Recipient")
                     horizontalAlignment: Text.AlignLeft
+
                     Layout.fillWidth: true
                 }
+
                 TotalsGridHeader {
                     text: qsTr("Sum [%1]").arg(baseCurrency)
+
                     Layout.fillWidth: true
                 }
+
+                // Settlement data
 
                 Repeater {
                     model: settlement
@@ -305,20 +325,24 @@ Page {
                         ]
 
                         Label {
-                            Layout.preferredWidth: parent.width / 7
-                            Layout.maximumWidth: parent.width / 3
-                            Layout.minimumWidth: 0
-                            // @disable-check M325
-                            Layout.fillWidth: index !== 1
-
                             wrapMode: Text.Wrap
                             // @disable-check M325
                             color: index == 3 ? Theme.primaryColor : Theme.highlightColor
                             font.pixelSize: Theme.fontSizeSmall
                             text: innerRepeater2.set[index]
-                            // @disable-check M325
-                            horizontalAlignment: index == 3 ?
-                                Text.AlignRight : Text.AlignLeft
+                            
+                            horizontalAlignment: {
+                                if (index === 1) {
+                                    return Text.AlignHCenter
+                                } else if (index === 3) {
+                                    return Text.AlignRight
+                                } else {
+                                    return Text.AlignLeft
+                                }
+                            }
+
+                            Layout.preferredWidth: index === 1 ? arrowTextMetrics.widgetWidth : parent.width / 3
+                            Layout.fillWidth: index !== 1
                         }
                     }
                 }
@@ -341,6 +365,7 @@ Page {
 
             EditableRatesList {
                 id: exchangeRatesList
+                
                 selectedProject: ProjectData {
                     // cannot assign appWindow.activeProject, but why?
                     rowid: appWindow.activeProject.rowid
