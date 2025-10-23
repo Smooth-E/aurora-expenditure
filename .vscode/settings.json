@@ -3,12 +3,15 @@
         "*.desktop": "shellscript",
         "*.pro": "shellscript",
         "*.ts": "xml",
-        "*.spec": "shellscript"
+        "*.spec": "shellscript",
+        "*.changes": "shellscript"
     },
     "cSpell.words": [
         "Boosty",
+        "cpython",
         "Jolla",
         "Mirian",
-        "Planitzer"
+        "Planitzer",
+        "pyotherside"
     ]
 }

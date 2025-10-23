@@ -1,13 +1,25 @@
 /*
  * This file is part of harbour-expenditure.
+ * SPDX-FileCopyrightText: 2024-2025 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: Mirian Margiani
  */
 
 import QtQuick 2.0
 import "modules/Opal/About"
 
 ChangelogList {
+    ChangelogItem {
+        version: "2.0.1.1-1"
+        date: "2025-10-24"
+        paragraphs: [
+            "- Первая версия для ОС Аврора<br>" +
+            "- Добавлены интерактивные обложки: информативная и простая<br>" +
+            "- Исправлено выравнивание категорий на странице подсчета компромисса<br>" +
+            "- Улучшен перевод на русский язык<br>" +
+            "- Компоненты cpython и pyotherside теперь поставляются вместе с приложением"
+        ]
+    }
     ChangelogItem {
         version: "2.0.1-1"
         date: "2025-08-23"

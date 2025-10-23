@@ -8,8 +8,10 @@ Name:       moe.smoothie.expenditure
 %define __provides_exclude_from ^%{_datadir}/.*$
 %define __requires_exclude (libpython3*|libpyside2*|libcrypt.*|libffi.*|python3dist|lib.*)
 
+%define _buildhost Aurora Build Engine
+
 Summary:        Expenditure
-Version:        2.0.1
+Version:        2.0.1.1
 Release:        1
 Group:          Applications/Productivity
 License:        GPL-3.0-or-later
@@ -23,7 +25,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-A simple app for tracking expenses in groups.
+Приложение для учета групповых расчетов, даже в разных валютах!
 
 %prep
 %setup -q -n %{name}-%{version}

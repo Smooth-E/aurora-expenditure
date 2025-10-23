@@ -6,6 +6,13 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Fri Oct 24 2025 Smooth-E <smoothie@disroot.org> 2.0.1.1-1
+- Первая версия для ОС Аврора
+- Добавлены интерактивные обложки: информативная и простая
+- Исправлено выравнивание категорий на странице подсчета компромисса
+- Улучшен перевод на русский язык
+- Компоненты cpython и pyotherside теперь поставляются вместе с приложением
+
 * Sat Aug 23 2025 Mirian Margiani <mixosaurus+ichthyo@pm.me> 2.0.1-1
 - Fixed entering numbers in locales that use '.' as decimal point
 - Fixed an untranslatable string
