@@ -2,7 +2,7 @@
 SPDX-FileCopyrightText: 2018-2025 Mirian Margiani
 SPDX-FileCopyrightText: 2022 Tobias Planitzer
 SPDX-FileCopyrightText: 2023 yajo10
-SPDX-FileCopyrightText: 2025 Smooth-E
+SPDX-FileCopyrightText: 2025-2026 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
@@ -14,7 +14,7 @@ Expenditure - это простое приложение для учета гр�
 
 | Ссылки для скачивания |
 | --- |
-| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/appitem/expenditure) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-expenditure/releases/latest/) |
+| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/aurora-5/expenditure) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-expenditure/releases/latest/) |
 
 ## Функционал
 
