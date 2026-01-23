@@ -79,6 +79,7 @@ Expenditure требуются следующие разрешения, чтоб
 - Copyright (C) 2022 Tobias Planitzer
 
 Expenditure - свободное программное обеспечение, которое распространяется под лицензией 
+
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
 Исходный код доступен [на Github](https://github.com/Smooth-E/aurora-expenditure).
 Вся сопутствующая документация распространяется под лицензией 

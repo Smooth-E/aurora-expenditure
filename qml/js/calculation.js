@@ -450,4 +450,7 @@ function _formatResults() {
 
     // REMAINING SINGLE VALUES
     _totalPayments = _totalPayments.toFixed(_settlementPrecision, rm)
+
+    // SINGLE EXPENSES
+    // for detailed reports, TODO
 }
