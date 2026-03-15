@@ -1,7 +1,7 @@
 # This file is part of Expenditure.
 # SPDX-FileCopyrightText: 2022 Tobias Planitzer
 # SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
-# SPDX-FileCopyrightText: 2025 Smooth-E
+# SPDX-FileCopyrightText: 2025-2026 Smooth-E
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 # Application name defined in TARGET has a corresponding QML filename.
@@ -49,6 +49,7 @@ TRANSLATIONS += translations/moe.smoothie.expenditure-*.ts
 
 libdir = /usr/share/$$TARGET/lib
 libexecdir = /usr/libexec/$$TARGET
+cpython_version = 3.14
 
 message(Building for architecture $$QT_ARCH)
 equals(QT_ARCH, arm64) {
@@ -65,10 +66,10 @@ message(Selected vendor dir $$vendor)
 
 python_bin.path = $$libexecdir
 python_bin.files = $$vendor/bin/python3 \
-                   $$vendor/bin/python3.13
+                   $$vendor/bin/python$$cpython_version
 
 python_lib.path = $$libdir
-python_lib.files = $$vendor/lib/python3.13 \
+python_lib.files = $$vendor/lib/python$$cpython_version \
                    $$vendor/lib/lib*
 
 pyotherside.path = $$libdir/
