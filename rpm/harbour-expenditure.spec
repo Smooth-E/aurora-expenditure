@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2025 Smooth-E
+# SPDX-FileCopyrightText: 2025-2026 Smooth-E
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 Name:       moe.smoothie.expenditure
@@ -11,7 +11,7 @@ Name:       moe.smoothie.expenditure
 %define _buildhost Aurora Build Engine
 
 Summary:        Expenditure
-Version:        2.0.1.1
+Version:        2.0.1.2
 Release:        1
 Group:          Applications/Productivity
 License:        GPL-3.0-or-later

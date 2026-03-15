@@ -1,7 +1,7 @@
 /*
  * This file is part of harbour-expenditure.
  * SPDX-FileCopyrightText: 2024-2025 Mirian Margiani
- * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-FileCopyrightText: 2025-2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -9,6 +9,15 @@ import QtQuick 2.0
 import "modules/Opal/About"
 
 ChangelogList {
+    ChangelogItem {
+        version: "2.0.1.2-1"
+        date: "2026-03-15"
+        paragraphs: [
+            "- Используется cpython 3.14.3<br>" +
+            "- Уменьшены размер приложения и время установки<br>" +
+            "- Внутренние улучшения и оптимизации"
+        ]
+    }
     ChangelogItem {
         version: "2.0.1.1-1"
         date: "2025-10-24"
