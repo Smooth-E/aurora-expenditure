@@ -21,6 +21,8 @@ databases/
 libs/opal-translations
 libs/opal-docs
 
+dist/packages
+
 vendor/
 
 # WSL metadata

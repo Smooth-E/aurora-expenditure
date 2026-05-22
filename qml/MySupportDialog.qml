@@ -1,17 +1,16 @@
 /*
- * This file is part of harbour-expenditure.
+ * This file asks for your support.
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2024-2025 Mirian Margiani
  */
 
 import QtQuick 2.0
-import Sailfish.Silica 1.0
 import Opal.SupportMe 1.0
 
 SupportDialog {
     SupportAction {
         icon: SupportIcon.Liberapay
-        title: qsTr("Donate on Liberapay")
+        title: qsTr("Donate on %1").arg("Liberapay")
         description: qsTr("Pay the amount of a cup of coffee, a slice " +
                           "of pizza, or a ticket to the theater.")
         link: "https://liberapay.com/ichthyosaurus"
@@ -26,7 +25,7 @@ SupportDialog {
 
     SupportAction {
         icon: SupportIcon.Git
-        title: qsTr("Develop on Github")
+        title: qsTr("Develop on %1").arg("GitHub")
         description: qsTr("Support with maintenance and packaging, " +
                           "write code, or provide valuable bug reports.")
         link: "https://github.com/Smooth-E/aurora-expenditure"
@@ -53,11 +52,6 @@ SupportDialog {
 
     DetailsDrawer {
         title: qsTr("Why donate?")
-
-        DetailsParagraph {
-            text: qsTr("Jolla raised prices and is trying to force " +
-                       "developers (who work for free) to pay rent for Sailfish.")
-        }
 
         DetailsParagraph {
             text: qsTr("If you can afford it, donating is the easiest way " +

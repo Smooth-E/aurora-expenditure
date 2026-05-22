@@ -511,8 +511,8 @@
     <name>MySupportDialog</name>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="14"/>
-        <source>Donate on Liberapay</source>
-        <translation>Пожертвовать на Liberapay</translation>
+        <source>Donate on %1</source>
+        <translation>Пожертвовать на %1</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="15"/>
@@ -530,9 +530,9 @@
         <translation>Поддержите разработчика порта для ОС Аврора пожертвованием на Boosty.</translation>
     </message>
     <message>
-        <location filename="../qml/MySupportDialog.qml" line="29"/>
-        <source>Develop on Github</source>
-        <translation>Разрабатывать на Github</translation>
+        <location filename="../qml/MySupportDialog.qml" line="30"/>
+        <source>Develop on %1</source>
+        <translation>Разрабатывать на %1</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="30"/>

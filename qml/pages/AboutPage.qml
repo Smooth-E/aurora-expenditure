@@ -1,7 +1,7 @@
 /*
  * This file is part of harbour-expenditure.
  * SPDX-FileCopyrightText: 2024-2025 Mirian Margiani
- * SPDX-FileCopyrightText: 2025-2026 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025-2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 

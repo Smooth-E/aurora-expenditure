@@ -1,12 +1,12 @@
 <!--
-SPDX-FileCopyrightText: 2018-2025 Mirian Margiani
+SPDX-FileCopyrightText: 2018-2026 Mirian Margiani
 SPDX-FileCopyrightText: 2022 Tobias Planitzer
 SPDX-FileCopyrightText: 2023 yajo10
 SPDX-FileCopyrightText: 2025-2026 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
-![Expenditure banner](dist/banner-small.png)
+<div align="center">
 
 # Expenditure для ОС Аврора
 
@@ -74,8 +74,8 @@ Expenditure требуются следующие разрешения, чтоб
 
 ## Лицензирование
 
-- Copyright (C) 2025 Smooth-E
-- Copyright (C) 2023-2025 Mirian Margiani
+- Copyright (C) 2025-2026 Smooth-E
+- Copyright (C) 2023-2026 Mirian Margiani
 - Copyright (C) 2022 Tobias Planitzer
 
 Expenditure - свободное программное обеспечение, которое распространяется под лицензией 
