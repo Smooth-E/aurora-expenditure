@@ -2,7 +2,7 @@
  * This file is part of harbour-expenditure.
  * SPDX-FileCopyrightText: 2022 Tobias Planitzer
  * SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
- * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-FileCopyrightText: 2025-2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
     // Vendored pyotherside
     view->engine()->addImportPath(Aurora::Application::pathTo("lib/qt5/qml").toString());
 
-    view->setSource(Aurora::Application::pathTo("qml/harbour-expenditure.qml"));
+    view->setSource(Aurora::Application::pathToMainQml());
     view->show();
 
     return app->exec();

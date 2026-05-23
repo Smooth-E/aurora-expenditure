@@ -1,6 +1,6 @@
 # This file is part of Expenditure.
 # SPDX-FileCopyrightText: 2022 Tobias Planitzer
-# SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+# SPDX-FileCopyrightText: 2023-2026 Mirian Margiani
 # SPDX-FileCopyrightText: 2025-2026 Smooth-E
 # SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -25,17 +25,16 @@ include(libs/opal-cached-defines.pri)
 include(libs/opal.pri)
 
 SOURCES += \
-    src/harbour-expenditure.cpp \
+    src/main.cpp \
 
 DISTFILES += \
     qml/*.qml \
     qml/*/*.qml \
     qml/*/*.js \
     qml/*/*.py \
-    rpm/harbour-*.changes \
-    rpm/harbour-*.spec \
-    rpm/harbour-*.yaml \
-    translations/*.ts \
+    rpm/moe.smoothie.expenditure.changes \
+    rpm/moe.smoothie.expenditure.spec \
+    translations/moe.smoothie.expenditure*.ts \
     moe.smoothie.expenditure.desktop
 
 AURORAAPP_ICONS = 86x86 108x108 128x128 172x172
