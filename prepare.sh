@@ -88,14 +88,25 @@ clean_cpython()
 {
     echo Removing unneeded cpython modules
 
+    cd vendor/$arch/lib/python$cpython_version/
+
     # Remove unneeded modules
-    rm -r $(pwd)/vendor/$arch/lib/python$cpython_version/test/
-    rm -r $(pwd)/vendor/$arch/lib/python$cpython_version/idlelib/ 
-    rm -r $(pwd)/vendor/$arch/lib/python$cpython_version/venv
-    rm -r $(pwd)/vendor/$arch/lib/python$cpython_version/unittest/
-    rm -r $(pwd)/vendor/$arch/lib/python$cpython_version/turtle.py 
-    rm -r $(pwd)/vendor/$arch/lib/python$cpython_version/turtledemo/
-    rm -r $(pwd)/vendor/$arch/lib/python$cpython_version/tkinter/
+    rm -r test/
+    rm -r idlelib/ 
+    rm -r venv
+    rm -r unittest/
+    rm -r turtle.py 
+    rm -r turtledemo/
+    rm -r tkinter/
+    rm -r lib2to3/tests
+    rm -r distutils/tests
+    rm -r site-packages/pip/_vendor/webencodings/tests.py
+    rm -r site-packages/pip/_vendor/colorama/tests
+    rm -r site-packages/pkg_resources/tests
+    rm -r sqlite3/test
+    rm -r ctypes/test
+    
+    cd ../../../../
 }
 
 build_pyotherside()
