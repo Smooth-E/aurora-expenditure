@@ -49,7 +49,7 @@ TRANSLATIONS += translations/moe.smoothie.expenditure-*.ts
 
 libdir = /usr/share/$$TARGET/lib
 libexecdir = /usr/libexec/$$TARGET
-cpython_version = 3.14
+cpython_version = 3.8
 
 message(Building for architecture $$QT_ARCH)
 equals(QT_ARCH, arm64) {

@@ -8,7 +8,7 @@
 
 target=""
 arch=""
-cpython_version=3.14
+cpython_version=3.8
 
 # Select certain build steps with command line args
 select_all=1
