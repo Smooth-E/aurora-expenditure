@@ -6,8 +6,6 @@ SPDX-FileCopyrightText: 2025-2026 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
-<div align="center">
-
 # Expenditure для ОС Аврора
 
 Expenditure - это простое приложение для учета групповых расходов. Оно поможет разделить счет в кафе, или посмотреть, во сколько обойдется путешествие с друзьями, даже если вы планируете тратить в разных валютах.
@@ -73,6 +71,8 @@ Expenditure требуются следующие разрешения, чтоб
 Конечно же, мы будем очень рады, если вы поможете проекту, предложив свои правки или улучшения. Прочтите секцию выше, чтобы узнать больше ✨
 
 ## Лицензирование
+
+Этот проект - софт-форк приложения [Expenditure для Sailfish OS](https://codeberg.org/ichthyosaurus/harbour-expenditure). Изменения из астрим-репозитория переодически синхронизируются. Порт основан на ревизии апстрим-репозитория из ветки [main](https://github.com/Smooth-E/aurora-expenditure/tree/main).
 
 - Copyright (C) 2025-2026 Smooth-E
 - Copyright (C) 2023-2026 Mirian Margiani
