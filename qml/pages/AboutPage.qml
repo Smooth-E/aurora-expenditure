@@ -79,6 +79,10 @@ A.AboutPageBase {
             title: qsTr("Development")
             groups: [
                 A.ContributionGroup {
+                    title: qsTr("Aurora OS Port")
+                    entries: ["Smooth‑E"]
+                },
+                A.ContributionGroup {
                     title: qsTr("Programming")
                     entries: ["Smooth‑E", "Mirian Margiani", "Tobias Planitzer", "yajo10"]
                 },
