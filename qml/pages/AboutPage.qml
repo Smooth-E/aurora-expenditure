@@ -50,7 +50,7 @@ A.AboutPageBase {
     description: qsTr("A simple app for tracking expenses in groups.")
     
     mainAttributions: [
-        "2025-2026 Smooth-E",
+        "2025-2026 Smooth‑E",
         "2023-%1 Mirian Margiani".arg((new Date()).getFullYear()),
         "2022 Tobias Planitzer"
     ]
@@ -80,7 +80,7 @@ A.AboutPageBase {
             groups: [
                 A.ContributionGroup {
                     title: qsTr("Programming")
-                    entries: ["Smooth-E", "Mirian Margiani", "Tobias Planitzer", "yajo10"]
+                    entries: ["Smooth‑E", "Mirian Margiani", "Tobias Planitzer", "yajo10"]
                 },
                 A.ContributionGroup {
                     title: qsTr("Icon Design")
