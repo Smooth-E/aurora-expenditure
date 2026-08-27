@@ -29,7 +29,7 @@ A.AboutPageBase {
     appRelease: APP_RELEASE
 
     allowDownloadingLicenses: false
-    sourcesUrl: "https://github.com/Smooth-E/aurora-expenditure"
+    sourcesUrl: "https://github.com/salty-smoothie/aurora-expenditure"
     changelogList: Qt.resolvedUrl("../Changelog.qml")
     licenses: A.License { spdxId: "GPL-3.0-or-later" }
 

@@ -14,7 +14,7 @@ Expenditure - это простое приложение для учета гр�
 
 | Ссылки для скачивания |
 | --- |
-| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/aurora-5/expenditure) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-expenditure/releases/latest/) |
+| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/aurora-5/expenditure) <br> 😼 [Скачать RPM](https://github.com/salty-smoothie/aurora-expenditure/releases/latest/) |
 
 ## Функционал
 
@@ -40,7 +40,7 @@ Expenditure требуются следующие разрешения, чтоб
 
 ## Поддержать проект
 
-Если у вас есть какие-то вопросы, предложения или вы столкнулись с проблемой при использовании приложения на ОС Аврора, пожалуйста, оставляйте свои комментарии в [трекере GitHub Issues этого репозитория](https://github.com/Smooth-E/aurora-expenditure/issues).
+Если у вас есть какие-то вопросы, предложения или вы столкнулись с проблемой при использовании приложения на ОС Аврора, пожалуйста, оставляйте свои комментарии в [трекере GitHub Issues этого репозитория](https://github.com/salty-smoothie/aurora-expenditure/issues).
 
 ## Сборка и предложение изменений
 
@@ -50,7 +50,7 @@ Expenditure требуются следующие разрешения, чтоб
 
 1. Клонируйте этот репозиторий
    ```sh
-   git clone --recurse-submodules https://github.com/Smooth-E/aurora-expenditure
+   git clone --recurse-submodules https://github.com/salty-smoothie/aurora-expenditure
    ```
 2. Примените необходимые патчи:
    ```sh
@@ -74,7 +74,7 @@ Expenditure требуются следующие разрешения, чтоб
 
 ## Лицензирование
 
-Этот проект - софт-форк приложения [Expenditure для Sailfish OS](https://codeberg.org/ichthyosaurus/harbour-expenditure). Изменения из астрим-репозитория переодически синхронизируются. Порт основан на ревизии апстрим-репозитория из ветки [main](https://github.com/Smooth-E/aurora-expenditure/tree/main).
+Этот проект - софт-форк приложения [Expenditure для Sailfish OS](https://codeberg.org/ichthyosaurus/harbour-expenditure). Изменения из астрим-репозитория переодически синхронизируются. Порт основан на ревизии апстрим-репозитория из ветки [main](https://github.com/salty-smoothie/aurora-expenditure/tree/main).
 
 - Copyright (C) 2025-2026 Smooth-E
 - Copyright (C) 2023-2026 Mirian Margiani
@@ -83,6 +83,6 @@ Expenditure требуются следующие разрешения, чтоб
 Expenditure - свободное программное обеспечение, которое распространяется под лицензией 
 
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
-Исходный код доступен [на Github](https://github.com/Smooth-E/aurora-expenditure).
+Исходный код доступен [на Github](https://github.com/salty-smoothie/aurora-expenditure).
 Вся сопутствующая документация распространяется под лицензией 
 [GNU Free Documentation License v1.3 (or later)](https://spdx.org/licenses/GFDL-1.3-or-later.html).

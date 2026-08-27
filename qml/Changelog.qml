@@ -10,6 +10,13 @@ import "modules/Opal/About"
 
 ChangelogList {
     ChangelogItem {
+        version: "2.0.1.4-1"
+        date: "2026-08-28"
+        paragraphs: [
+            "- Изменены ссылки на исходный код приложения"
+        ]
+    }
+    ChangelogItem {
         version: "2.0.1.3-1"
         date: "2026-05-23"
         paragraphs: [

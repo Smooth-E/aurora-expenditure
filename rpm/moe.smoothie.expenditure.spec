@@ -11,11 +11,11 @@ Name:       moe.smoothie.expenditure
 %define _buildhost Aurora Build Engine
 
 Summary:        Expenditure
-Version:        2.0.1.3
+Version:        2.0.1.4
 Release:        1
 Group:          Applications/Productivity
 License:        GPL-3.0-or-later
-URL:            https://github.com/Smooth-E/aurora-expenditure
+URL:            https://github.com/salty-smoothie/aurora-expenditure
 Source0:        %{name}-%{version}.tar.bz2
 Requires:       sailfishsilica-qt5 >= 0.10.9
 BuildRequires:  pkgconfig(auroraapp) >= 1.0.2
