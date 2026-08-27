@@ -86,3 +86,7 @@ Expenditure - свободное программное обеспечение, 
 Исходный код доступен [на Github](https://github.com/salty-smoothie/aurora-expenditure).
 Вся сопутствующая документация распространяется под лицензией 
 [GNU Free Documentation License v1.3 (or later)](https://spdx.org/licenses/GFDL-1.3-or-later.html).
+
+- Фото ["A group of red buildings sitting next to a body of water"](https://unsplash.com/photos/a-group-of-red-buildings-sitting-next-to-a-body-of-water-7zRTDfnRcrg) было использовано при создании скриншотов и баннера
+
+Материалы в этом репозитории запрещено использовать в разработке технологий ИИ и LLM.
